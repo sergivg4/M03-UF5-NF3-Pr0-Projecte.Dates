@@ -1,0 +1,130 @@
+mar 19, 2023 4:01:57 P. M. vista.IniciVistaController main
+INFO: inicio
+mar 19, 2023 4:02:00 P. M. vista.IniciVistaController main
+SEVERE: Error al pedir el valor, tiene que ser un int!
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at vista.IniciVistaController.main(IniciVistaController.java:61)
+
+mar 19, 2023 4:02:43 P. M. vista.IniciVistaController main
+INFO: inicio
+mar 19, 2023 4:02:50 P. M. vista.IniciVistaController main
+SEVERE: Error al pedir el valor, solo del 0 al 3!
+java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+	at vista.IniciVistaController.main(IniciVistaController.java:63)
+
+mar 19, 2023 4:02:54 P. M. vista.IniciVistaController main
+INFO: inicio
+mar 19, 2023 4:03:00 P. M. vista.IniciVistaController main
+SEVERE: Error al pedir el valor, tiene que ser un int!
+java.lang.NumberFormatException: For input string: "ads23"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at vista.IniciVistaController.main(IniciVistaController.java:72)
+
+mar 21, 2023 7:10:22 P. M. vista.IniciVistaController main
+INFO: inicio
+mar 25, 2023 2:27:57 P. M. vista.IniciVistaController main
+INFO: inicio
+mar 25, 2023 2:28:12 P. M. controller.ProductesDao importarMenu
+SEVERE: Error IOException
+java.io.FileNotFoundException: res\datoss.json (El sistema no puede encontrar el archivo especificado)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at controller.BotigaImportExportJSON.importar(BotigaImportExportJSON.java:32)
+	at controller.ProductesDao.importarMenu(ProductesDao.java:78)
+	at vista.ProductesVistaController.inicio(ProductesVistaController.java:56)
+	at vista.IniciVistaController.main(IniciVistaController.java:69)
+
+mar 25, 2023 2:29:19 P. M. vista.IniciVistaController main
+FINE: Fue todo bien
+
+
+mar 25, 2023 7:24:19 P. M. vista.IniciVistaController main
+INFO: inicio
+mar 25, 2023 7:25:01 P. M. vista.ProductesVistaController menuTreureStock
+SEVERE: Error StockInsuficientException
+exceptions.StockInsuficientException: No hay suficiente Stock.
+	at model.Producte.treureStock(Producte.java:54)
+	at vista.ProductesVistaController.menuTreureStock(ProductesVistaController.java:103)
+	at vista.ProductesVistaController.inicio(ProductesVistaController.java:69)
+	at vista.IniciVistaController.main(IniciVistaController.java:65)
+
+
+abr 23, 2023 5:54:36 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 5:55:08 P. M. vista.IniciVistaController main
+FINE: Fue todo bien
+abr 23, 2023 5:55:09 P. M. vista.IniciVistaController main
+FINE: Fue todo bien
+abr 23, 2023 5:59:16 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 6:03:11 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 6:05:34 P. M. vista.IniciVistaController main
+FINE: Fue todo bien
+abr 23, 2023 6:05:36 P. M. vista.IniciVistaController main
+FINE: Fue todo bien
+abr 23, 2023 6:05:48 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 6:07:44 P. M. vista.IniciVistaController main
+FINE: Fue todo bien
+abr 23, 2023 6:07:44 P. M. vista.IniciVistaController main
+FINE: Fue todo bien
+abr 23, 2023 8:00:37 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 8:07:48 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 8:11:04 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 8:55:07 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 8:59:18 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 8:59:52 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 9:24:15 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 9:25:16 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 9:39:03 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 9:52:19 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 9:53:11 P. M. vista.IniciVistaController main
+FINE: Fue todo bien
+abr 23, 2023 9:53:11 P. M. vista.IniciVistaController main
+FINE: Fue todo bien
+abr 23, 2023 10:58:18 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 11:00:46 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 11:02:04 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 11:02:52 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 11:03:28 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 11:05:14 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 11:09:59 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 11:12:10 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 11:23:29 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 11:24:21 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 11:26:18 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 11:28:47 P. M. vista.IniciVistaController main
+INFO: inicio
+abr 23, 2023 11:30:12 P. M. vista.IniciVistaController main
+INFO: inicio

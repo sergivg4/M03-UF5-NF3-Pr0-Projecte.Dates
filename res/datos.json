@@ -1,0 +1,58 @@
+{
+  "1": {
+    "stock": 342,
+    "precio": 3.2,
+    "dataInicio": "10-12-2000",
+    "dataFinal": "24-02-2011",
+    "id": 1,
+    "nom": "prod1"
+  },
+  "2": {
+    "stock": 425,
+    "precio": 19.3,
+    "dataInicio": "18-01-2017",
+    "dataFinal": "29-08-2022",
+    "id": 2,
+    "nom": "prod2"
+  },
+  "3": {
+    "stock": 593,
+    "precio": 4.99,
+    "dataInicio": "06-10-2020",
+    "dataFinal": "02-01-2022",
+    "id": 3,
+    "nom": "prod3"
+  },
+  "4": {
+    "stock": 293,
+    "precio": 0.29,
+    "dataInicio": "14-06-2002",
+    "dataFinal": "14-06-2006",
+    "id": 4,
+    "nom": "prod4"
+  },
+  "5": {
+    "stock": 55,
+    "precio": 23.5,
+    "dataInicio": "27-08-2003",
+    "dataFinal": "30-12-2017",
+    "id": 5,
+    "nom": "prod5"
+  },
+  "6": {
+    "stock": 555,
+    "precio": 32.2,
+    "dataInicio": "04-02-2004",
+    "dataFinal": "20-10-2024",
+    "id": 6,
+    "nom": "prod6"
+  },
+  "7": {
+    "stock": 7,
+    "precio": 7.0,
+    "dataInicio": "29-11-2001",
+    "dataFinal": "15-09-2019",
+    "id": 7,
+    "nom": "prod7"
+  }
+}
